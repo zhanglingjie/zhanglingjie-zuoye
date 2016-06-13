@@ -7,42 +7,37 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1>吉他销售系统</h1>
+<h1>Guitar sales system V2.0.0</h1>
 <form action="SearchGuitar" >
-
-<label>builder</label>
-<select name="builder" >
-<option>AMY</option><option>RYAN</option>
-</select>
 <label>model</label>
 <select name="model" >
 <option>01</option><option>02</option>
-</select>
-<label>type</label>
+</select><br/>
+<label>类型</label>
 <select name="type" >
 <option>ACOUSTIC</option><option>ELECTRIC</option>
-</select>
-<label>backwood</label>
-<select name="backwood" >
-<option>ALDER</option><option>MAPLE</option><option>CEDAR</option>
-</select>
-<label>topwood</label>
+</select><br/>
+<label>制造商</label>
+<select name="builder" >
+<option>AMY</option><option>RYAN</option>
+</select><br/>
+<label>上部材料</label>
 <select name="topwood" >
 <option>ALDER</option><option>MAPLE</option><option>CEDAR</option>
-</select>
-<label>topwood</label>
+</select><br/>
+<label>背部材料</label>
+<select name="backwood" >
+<option>ALDER</option><option>MAPLE</option><option>CEDAR</option>
+</select><br/>
+<label>上部材料</label>
 <select name="numStrings" >
 <option>6</option>
 </select>
 <br/>
-<input type="submit">
-
-
-
+<input type="submit" value="请查询">
 </form>
-<br/>
-<br/>
-<br/>
-<img src="img/1.png">
+
+
+
 </body>
 </html>
